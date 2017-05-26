@@ -36,7 +36,7 @@ class CWebViewDelegateImpl extends NSObject implements UIWebViewDelegate {
             }
 
             if (navType === "linkClicked") {
-                owner._onLinkNavigation(webView.request.URL.absoluteString);
+                owner._onLinkNavigation(request.URL.absoluteString);
                 return false;
             }
         }

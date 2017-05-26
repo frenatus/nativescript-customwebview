@@ -10,5 +10,5 @@ export function pageLoaded(args: observable.EventData) {
         const url: string = args.url;
         console.log("clicked on : " + url);
     });
-    webview._loadUrl("https://www.w3schools.com/html/html_examples.asp");
+    webview._loadData("<h1>Title</h1><p>This is a link to <a href='https://www.nativescript.org'>Nativescript</a></p>");
 }
