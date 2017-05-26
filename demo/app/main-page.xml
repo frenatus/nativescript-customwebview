@@ -3,6 +3,5 @@ xmlns:customwebview="nativescript-customwebview"
 loaded="pageLoaded" class="page">
   <GridLayout>
     <customwebview:Customwebview id="webView" />
-    <!--<WebView id="webView" src="<!DOCTYPE html><html><body><h1>My First Heading</h1><p>My first paragraph.</p></body></html>" />-->
   </GridLayout>
 </Page>

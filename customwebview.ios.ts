@@ -62,7 +62,6 @@ export class Customwebview extends Common {
         super();
 
         this.nativeView = this._ios = UIWebView.new();
-        console.log("CWV - CONSTRUCTINGGGGGG");
         this._delegate = CWebViewDelegateImpl.initWithOwner(new WeakRef(this));
     }
 
